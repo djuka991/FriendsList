@@ -1,0 +1,52 @@
+h1{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.ul__list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.person{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ececec;
+    display: flex;
+}
+
+.person__info h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.person__info h3 {
+    font-size:  0.9em;
+    color: gray;
+}
+
+.person__img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.person span{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 135px;
+    right: 42px;
+    border-radius: 50%;
+}
+
+.person.is-online span{
+    background-color: green;
+}
+
+.person.is-offline span{
+    background-color: red;
+}
